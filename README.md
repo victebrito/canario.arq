@@ -1,0 +1,2 @@
+# canario.arq
+canário arq
