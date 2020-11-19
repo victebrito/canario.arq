@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/canario.arq/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/canario.arq/static/js/main.498d446f.chunk.js",
+    "main.js.map": "/canario.arq/static/js/main.498d446f.chunk.js.map",
+    "runtime-main.js": "/canario.arq/static/js/runtime-main.afde8dd5.js",
+    "runtime-main.js.map": "/canario.arq/static/js/runtime-main.afde8dd5.js.map",
+    "static/js/2.9a4b91cc.chunk.js": "/canario.arq/static/js/2.9a4b91cc.chunk.js",
+    "static/js/2.9a4b91cc.chunk.js.map": "/canario.arq/static/js/2.9a4b91cc.chunk.js.map",
+    "static/js/3.5afa8de9.chunk.js": "/canario.arq/static/js/3.5afa8de9.chunk.js",
+    "static/js/3.5afa8de9.chunk.js.map": "/canario.arq/static/js/3.5afa8de9.chunk.js.map",
+    "index.html": "/canario.arq/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/canario.arq/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.9a4b91cc.chunk.js.LICENSE.txt": "/canario.arq/static/js/2.9a4b91cc.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/canario.arq/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afde8dd5.js",
+    "static/js/2.9a4b91cc.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.498d446f.chunk.js"
+  ]
+}
