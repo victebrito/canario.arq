@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import Navigationbar from "./Navigationbar.js";
+import Headline from "./Headline.js";
+import { Container } from "react-bulma-components";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navigationbar />
+            <Headline />
+        </div>
+    );
 }
 
 export default App;
