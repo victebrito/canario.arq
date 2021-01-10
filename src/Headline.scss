@@ -18,3 +18,31 @@
 .spacer {
     height: 86px;
 }
+
+.banner {
+    position: relative;
+}
+
+.pattern {
+    position: absolute;
+    right: -400px;
+    top: -250px;
+    transform: scale(0.8);
+}
+
+@media only screen and (max-width: 1280px) {
+    .pattern {
+        transform: scale(0.6);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pattern {
+        position: absolute;
+
+        right: -700px;
+        top: 250px;
+
+        transform: rotate(60deg) scale(0.4);
+    }
+}
