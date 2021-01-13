@@ -42,6 +42,26 @@ h1 {
     font-size: 64px;
     line-height: 120.62%;
     color: $black;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120.62%;
+    color: $black;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: $grey-dark;
+    margin-top: 1.5rem;
 }
 
 body {
@@ -50,6 +70,10 @@ body {
     font-weight: 500;
     font-size: 14px;
     color: $grey-dark;
+}
+
+p {
+    margin-top: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {

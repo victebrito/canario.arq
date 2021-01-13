@@ -7,12 +7,10 @@ function Headline() {
     return (
         <Hero>
             <div className="banner">
-                <div className="spacer">&nbsp;</div>
-
+                <div className="spacer-top">&nbsp;</div>
                 <div className="pattern">
                     <Pattern />
                 </div>
-
                 <Container>
                     <div className="headLine">
                         <h1>Transfor-mação</h1>
@@ -25,6 +23,7 @@ function Headline() {
                         </Button>
                     </div>
                 </Container>
+                <div className="spacer-bottom ">&nbsp;</div>
             </div>
         </Hero>
     );
