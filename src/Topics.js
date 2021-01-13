@@ -1,6 +1,5 @@
 import "./Topics.scss";
 import { Columns } from "react-bulma-components";
-import React from "react";
 import { ReactComponent as CreativityIllu } from "./assets/ilustrations/undraw_new_ideas_jdea.svg";
 import { ReactComponent as HumanIllu } from "./assets/ilustrations/undraw_flowers_vx06.svg";
 import { ReactComponent as TransforIllu } from "./assets/ilustrations/undraw_building_blocks_n0nc.svg";

@@ -1,7 +1,7 @@
 import "./Headline.scss";
-import { Button, Columns, Container, Hero } from "react-bulma-components";
-import React from "react";
-import { ReactComponent as Pattern } from "./assets/pattern.svg";
+import { Button, Container, Hero } from "react-bulma-components";
+import { ReactComponent as Pattern } from "./assets/ilustrations/pattern.svg";
+import { ReactComponent as PatternMobile } from "./assets/ilustrations/pattern-mobile.svg";
 
 function Headline() {
     return (
@@ -23,7 +23,12 @@ function Headline() {
                         </Button>
                     </div>
                 </Container>
-                <div className="spacer-bottom ">&nbsp;</div>
+                <div className="spacer-bottom ">
+                    &nbsp;
+                    <div className="pattern-mobile">
+                        <PatternMobile />
+                    </div>
+                </div>
             </div>
         </Hero>
     );
