@@ -1,8 +1,9 @@
 import "./App.scss";
 import Navigationbar from "./Navigationbar.js";
 import Headline from "./Headline.js";
-import { Container } from "react-bulma-components";
+import { Container, Section } from "react-bulma-components";
 import Topics from "./Topics.js";
+import Footer from "./Footer";
 
 function App() {
     return (
@@ -10,8 +11,11 @@ function App() {
             <Navigationbar />
             <Headline />
             <Container>
-                <Topics />
+                <Section size="medium">
+                    <Topics />
+                </Section>
             </Container>
+            <Footer />
         </div>
     );
 }

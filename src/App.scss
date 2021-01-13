@@ -2,15 +2,9 @@
 
 // Import a Google Font
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import "./styles/colors.scss";
 
-// Set your brand colors
-$blue: #038694;
-$pink: #fe9d72;
-$purple: #4900b8;
-$grey-dark: #4f4f4f;
-$grey-light: #f2f2f2;
-$white: #ffffff;
-$black: #000000;
+$footer-background-color: $blue;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -30,10 +24,12 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
-//@import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/grid/columns.sass";
-
+@import "../node_modules/bulma/sass/layout/footer.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/helpers/spacing.sass";
+//@import "../node_modules/bulma/sass/form/_all.sass";
 
 h1 {
     font-family: "Raleway", sans-serif;
