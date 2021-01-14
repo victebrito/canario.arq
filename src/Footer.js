@@ -1,6 +1,7 @@
 import "./Footer.scss";
-import { Columns, Container, Content } from "react-bulma-components";
+import { Columns, Container } from "react-bulma-components";
 import { Footer as Footr } from "react-bulma-components";
+import Photo from "./assets/photos/photo.png";
 
 function Footer() {
     return (
@@ -12,13 +13,15 @@ function Footer() {
                     <Columns>
                         <Columns.Column>
                             <div className="image">
-                                <span>Image here</span>
+                                <img src={Photo} height="200px" width="200px" align="right" />
                             </div>
                         </Columns.Column>
                         <Columns.Column>
-                            <h2>Laís Guerra</h2>
-                            <p className="ftr-p">Arquiteta e Urbanista</p>
-                            <p className="ftr-p mt-6">contato@canarioarquitetura.com.br</p>
+                            <div className="contact-info">
+                                <h2>Laís Guerra</h2>
+                                <p className="ftr-p">Arquiteta e Urbanista</p>
+                                <p className="ftr-p mt-6">contato@canarioarquitetura.com.br</p>
+                            </div>
                         </Columns.Column>
                     </Columns>
                 </Container>
