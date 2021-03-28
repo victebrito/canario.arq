@@ -4,6 +4,7 @@ import Headline from "./Headline.js";
 import { Container, Section } from "react-bulma-components";
 import Topics from "./Topics.js";
 import Footer from "./Footer";
+import Portfolio from "./Portfolio";
 
 function App() {
     return (
@@ -13,6 +14,9 @@ function App() {
             <Container>
                 <Section size="medium">
                     <Topics />
+                </Section>
+                <Section >
+                    <Portfolio />
                 </Section>
             </Container>
             <Footer />
