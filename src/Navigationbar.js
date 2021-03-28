@@ -13,7 +13,9 @@ function Navigationbar() {
             <Navbar.Container position="end">
                 <Navbar.Item>
                     <Button className="is-primary is-rounded is-small">
-                        <strong>CONTATO</strong>
+                        <a href="http://wa.link/wg851z">
+                            <strong>CONTATO</strong>
+                        </a>
                     </Button>
                 </Navbar.Item>
             </Navbar.Container>
