@@ -19,7 +19,9 @@ function Headline() {
                             delicadas: expressão de liberdade, inteligência e paixão criativa.
                         </p>
                         <Button className="is-primary is-rounded is-small">
-                            <strong>CONTATO</strong>
+                            <a href="http://wa.link/wg851z" target="_blank">
+                                <strong>CONTATO</strong>
+                            </a>
                         </Button>
                     </div>
                 </Container>

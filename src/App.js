@@ -5,20 +5,30 @@ import { Container, Section } from "react-bulma-components";
 import Topics from "./Topics.js";
 import Footer from "./Footer";
 import Portfolio from "./Portfolio";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
     return (
         <div className="App">
             <Navigationbar />
-            <Headline />
-            <Container>
-                <Section size="medium">
-                    <Topics />
-                </Section>
-                <Section >
-                    <Portfolio />
-                </Section>
-            </Container>
+            <Router>
+                <Switch>
+                    <Route path="/portfolio">asdasd</Route>
+                    <Route path="/">
+                        <Headline />
+                        <Container>
+                            <Section size="medium">
+                                <Topics />
+                            </Section>
+                            <Section>
+                                <Link to="/portfolio">
+                                    <Portfolio />
+                                </Link>
+                            </Section>
+                        </Container>
+                    </Route>
+                </Switch>
+            </Router>
             <Footer />
         </div>
     );
