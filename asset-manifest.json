@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/canario.arq/static/css/main.5f15e24e.chunk.css",
+    "main.js": "/canario.arq/static/js/main.d475da7a.chunk.js",
+    "main.js.map": "/canario.arq/static/js/main.d475da7a.chunk.js.map",
+    "runtime-main.js": "/canario.arq/static/js/runtime-main.d41f1683.js",
+    "runtime-main.js.map": "/canario.arq/static/js/runtime-main.d41f1683.js.map",
+    "static/js/2.6a336c48.chunk.js": "/canario.arq/static/js/2.6a336c48.chunk.js",
+    "static/js/2.6a336c48.chunk.js.map": "/canario.arq/static/js/2.6a336c48.chunk.js.map",
+    "static/js/3.4761cf9a.chunk.js": "/canario.arq/static/js/3.4761cf9a.chunk.js",
+    "static/js/3.4761cf9a.chunk.js.map": "/canario.arq/static/js/3.4761cf9a.chunk.js.map",
+    "index.html": "/canario.arq/index.html",
+    "static/css/main.5f15e24e.chunk.css.map": "/canario.arq/static/css/main.5f15e24e.chunk.css.map",
+    "static/js/2.6a336c48.chunk.js.LICENSE.txt": "/canario.arq/static/js/2.6a336c48.chunk.js.LICENSE.txt",
+    "static/media/cozinha1.a7c0ad78.png": "/canario.arq/static/media/cozinha1.a7c0ad78.png",
+    "static/media/logo.05797684.svg": "/canario.arq/static/media/logo.05797684.svg",
+    "static/media/loja1.9e75b63b.png": "/canario.arq/static/media/loja1.9e75b63b.png",
+    "static/media/pattern-mobile.6d13e73f.svg": "/canario.arq/static/media/pattern-mobile.6d13e73f.svg",
+    "static/media/pattern.3d6e2fce.svg": "/canario.arq/static/media/pattern.3d6e2fce.svg",
+    "static/media/photo.9a69f6b1.png": "/canario.arq/static/media/photo.9a69f6b1.png",
+    "static/media/quarto1.e2371555.png": "/canario.arq/static/media/quarto1.e2371555.png",
+    "static/media/selo-puleiro.b244dc91.svg": "/canario.arq/static/media/selo-puleiro.b244dc91.svg",
+    "static/media/undraw_building_blocks_n0nc.22589d18.svg": "/canario.arq/static/media/undraw_building_blocks_n0nc.22589d18.svg",
+    "static/media/undraw_flowers_vx06.56b7820d.svg": "/canario.arq/static/media/undraw_flowers_vx06.56b7820d.svg",
+    "static/media/undraw_new_ideas_jdea.1f633306.svg": "/canario.arq/static/media/undraw_new_ideas_jdea.1f633306.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d41f1683.js",
+    "static/js/2.6a336c48.chunk.js",
+    "static/css/main.5f15e24e.chunk.css",
+    "static/js/main.d475da7a.chunk.js"
+  ]
+}
